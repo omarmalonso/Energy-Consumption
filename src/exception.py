@@ -1,6 +1,6 @@
 import sys # module provides access to some variables used or maintained by the interpreter 
             # and to functions that interact strongly with the interpreter
-import logging
+from src.logger import logging
 def error_message_detail(error, error_detail:sys):
 
     _,_,exc_tb = error_detail.exc_info() # details of error
@@ -18,5 +18,3 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
-
-        

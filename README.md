@@ -3,9 +3,20 @@
 
 ## Agenda
 <p>1- set up github repository  
-a) new environment  
-b)setup.py  
-c)requiremetns.txt</p>
+1.  new environment  
+1.  setup.py  
+1.  requiremetns.txt</p>
 
-<p>2- Src folder and build package</p>
+<p>2- Src folder and build package 
+1.  logger.py
+1.  exceptions.py 
+</p>
 
+Life cycle of machine learning project
+    understanding the problem statement. what is the problem we are trying to solve. ie how do variables affect your outcome
+    data collection
+    data checks to perform
+    exploratory data analysis
+    data-preprocessing
+    model training
+    choose best model
